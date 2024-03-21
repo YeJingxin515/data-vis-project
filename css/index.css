@@ -22,10 +22,16 @@
 
 }
 
-/* 散点图 */
+/* 分布散点图 */
 #scatter-plot-chart {
     width: 100%;
     height: 500px;
+}
+
+/* 植物种类旭日图 */
+#plant-species-chart {
+    width: 100%;
+    height: 700px;
 }
 
 /* 树叶形状的图 */

@@ -16,7 +16,7 @@ function drawShapeChart() {
             }
         },
         xAxis: {
-            data: ['椭圆形', '卵形', '披针形', '条形', '针形', '心形', '圆形', '指形','鳞片状'],
+            data: ['椭圆形', '卵形', '披针形', '条形', '针形', '心形', '圆形', '指状','鳞片状'],
             axisTick: { show: false },
             axisLine: { show: false },
             axisLabel: {
@@ -58,39 +58,39 @@ function drawShapeChart() {
                 data: [
                     {
                         value: 10,
-                        symbol: 'image://img/duishengleaf.svg',
+                        symbol: 'image://img/tuoyuanxing.svg',
                     },
                     {
                         value: 6,
-                        symbol: 'image://img/duishengleaf.svg',
+                        symbol: 'image://img/luanxing.svg',
                     },
                     {
                         value: 5,
-                        symbol: 'image://img/duishengleaf.svg',
+                        symbol: 'image://img/pizhenxing.svg',
                     },
                     {
                         value: 5,
-                        symbol: 'image://img/duishengleaf.svg',
+                        symbol: 'image://img/tiaoxing.svg',
                     },
                     {
                         value: 5,
-                        symbol: 'image://img/duishengleaf.svg',
+                        symbol: 'image://img/zhenxing.svg',
                     },
                     {
                         value: 2,
-                        symbol: 'image://img/duishengleaf.svg',
+                        symbol: 'image://img/xinxing.svg',
                     },
                     {
                         value: 2,
-                        symbol: 'image://img/duishengleaf.svg',
+                        symbol: 'image://img/yuanxing.svg',
                     },
                     {
                         value: 2,
-                        symbol: 'image://img/duishengleaf.svg',
+                        symbol: 'image://img/yuanxing.svg',
                     },
                     {
                         value: 1,
-                        symbol: 'image://img/duishengleaf.svg',
+                        symbol: 'image://img/linpianzhuang.svg',
                     },
                 ]
             }
