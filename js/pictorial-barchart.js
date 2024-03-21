@@ -1,6 +1,7 @@
 //画树叶形状的图
 function drawShapeChart() {
     var dom = document.getElementById('leaf-shape-chart');
+    
     var myChart = echarts.init(dom, null, {
         renderer: 'svg',
         useDirtyRect: false
@@ -86,7 +87,7 @@ function drawShapeChart() {
                     },
                     {
                         value: 2,
-                        symbol: 'image://img/yuanxing.svg',
+                        symbol: 'image://img/zhixing.svg',
                     },
                     {
                         value: 1,
