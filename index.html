@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" style="height: 100%">
+
 <head>
   <meta charset="utf-8">
   <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
   <link rel="stylesheet" href="./css/index.css" />
 </head>
+
 <body style="height: 100%; margin: 0">
   <div id="container" style="height: 100%">
     <div class="chart-title-container">
@@ -15,36 +17,80 @@
       <button onclick="drawPlotChart('Family')">种类(Family)</button>
       <button onclick="drawPlotChart('Shape')">叶片形状(Leaf Shape)</button>
       <button onclick="drawPlotChart('Arrangement')">叶序(Leaf Arrangement)</button>
-  </div>
-    <div id="scatter-plot-chart"></div>
-
+      <button onclick="drawPlotChart('Soil')">土壤类型(Soil Type)</button>
+    </div>
+    <div class="horizontal-layout">
+      <div id="scatter-plot-chart"></div>
+    </div>
+    <!-- -------------------------------------------------- -->
     <div class="chart-title-container">
       <div class="chart-title-ch">植物种类图</div>
       <div class="chart-title-en">Plant Species Diagram</div>
     </div>
+
     <div id="plant-species-chart"></div>
 
-
+    <!-- -------------------------------------------------- -->
     <div class="chart-title-container">
       <div class="chart-title-ch">植物叶片形状图</div>
       <div class="chart-title-en">Leaf Shape Diagram</div>
     </div>
-    <div id="leaf-shape-chart"></div>
-
+    <div class="horizontal-layout">
+      <div id="leaf-shape-chart"></div>
+    </div>
+    <!-- -------------------------------------------------- -->
     <div class="chart-title-container">
       <div class="chart-title-ch">植物叶序图</div>
       <div class="chart-title-en">Leaf Arrangement Diagram</div>
     </div>
-    <div id="leaf-order-chart"></div>
-    <div id="bloom-time-chart">
-      <img src="img//bloomTimeChart.svg" alt="bloom-time-chart"/>
+    <div class="horizontal-layout">
+      <div id="leaf-order-chart"></div>
     </div>
+
+    <!-- -------------------------------------------------- -->
+    <div class="chart-title-container">
+      <div class="chart-title-ch">植物生长时序图</div>
+      <div class="chart-title-en">Plant Growth Timeline Chart</div>
+    </div>
+    <div id="bloom-time-chart">
+      <img src="img//bloomTimeChart.svg" alt="bloom-time-chart" />
+    </div>
+
+    <!-- -------------------------------------------------- -->
+    <div class="chart-title-container">
+      <div class="chart-title-ch">植物土壤桑基图</div>
+      <div class="chart-title-en">Plant Soil Sankey Chart</div>
+    </div>
+    <div class="horizontal-layout">
+      <div id="sankey-chart"></div>
+    </div>
+
+
+    <!-- -------------------------------------------------- -->
+    <div class="chart-title-container">
+      <div class="chart-title-ch">土壤内容物图</div>
+      <div class="chart-title-en">Soil Content Diagram</div>
+    </div>
+    <div class="horizontal-layout">
+      <div id="soil-content-chart"></div>
+    </div>
+
+    <!-- -------------------------------------------------- -->
+    <div class="chart-title-container">
+      <div class="chart-title-ch">土壤颜色比例图</div>
+      <div class="chart-title-en">Soil Color Scale Diagram</div>
+    </div>
+
 
   </div>
   <script type="text/javascript" src="./js/scatter-plot-chart.js"></script>
   <script type="text/javascript" src="./js/pictorial-barchart.js"></script>
   <script type="text/javascript" src="./js/sunburst-chart.js"></script>
+  <script type="text/javascript" src="./js/funnel-chart.js"></script>
+  <script type="text/javascript" src="./js/sankey-chart.js"></script>
+
 
 
 </body>
+
 </html>

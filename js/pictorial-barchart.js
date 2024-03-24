@@ -54,7 +54,7 @@ function drawShapeChart() {
                 type: 'pictorialBar',
                 barGap: '-100%',
                 symbolPosition: 'end',
-                symbolSize: 50,
+                symbolSize: 30,
                 symbolOffset: [0, '-120%'],
                 data: [
                     {
@@ -162,7 +162,7 @@ function drawOrderChart() {
                 type: 'pictorialBar',
                 label: labelSetting,
                 symbolRepeat: true,
-                symbolSize: 40,
+                symbolSize: 30,
                 data: [
                     {
                         value: 7,

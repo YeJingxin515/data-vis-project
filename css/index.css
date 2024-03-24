@@ -35,11 +35,20 @@ button {
     background-color: rgb(228, 218, 78, 0.2);
 }
 
+/* 横向布局 */
+.horizontal-layout {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
 /* 分布散点图 */
 #scatter-plot-chart {
-    width: 100%;
+    width: 70%;
     height: 500px;
 }
+
 
 /* 植物种类旭日图 */
 #plant-species-chart {
@@ -49,13 +58,13 @@ button {
 
 /* 树叶形状的图 */
 #leaf-shape-chart {
-    width: 100%;
+    width: 70%;
     height: 500px;
 }
 
 /* 画叶序的图 */
 #leaf-order-chart {
-    width: 100%;
+    width: 70%;
     height: 500px;
 }
 
@@ -65,6 +74,20 @@ button {
     height: 800px;
 }
 
-img{
+/* 桑基图  */
+#sankey-chart {
     width: 80%;
+    height: 700px;
+    margin-left: 10%;
+}
+
+/* 土壤内容物图 */
+#soil-content-chart {
+    width: 70%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+img {
+    width: 70%;
 }

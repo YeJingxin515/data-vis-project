@@ -16,7 +16,7 @@ function drawSpeciesChart() {
                     children: [
                         {
                             name: '雪松',
-                            value: 1
+                            value: 1,
                         }
                     ]
                 }, {
@@ -24,7 +24,7 @@ function drawSpeciesChart() {
                     children: [
                         {
                             name: '水杉',
-                            value: 1
+                            value: 1,
                         }
                     ]
                 }, {
@@ -32,7 +32,7 @@ function drawSpeciesChart() {
                     children: [
                         {
                             name: '美国扁柏',
-                            value: 1
+                            value: 1,
                         }
                     ]
                 }, {
@@ -40,7 +40,7 @@ function drawSpeciesChart() {
                     children: [
                         {
                             name: '棕榈',
-                            value: 1
+                            value: 1,
                         }
                     ]
                 }, {
@@ -48,7 +48,8 @@ function drawSpeciesChart() {
                     children: [
                         {
                             name: '矢竹',
-                            value: 2
+                            value: 2,
+                            // value: 1
                         }
                     ]
                 }, {
@@ -60,7 +61,7 @@ function drawSpeciesChart() {
                         }
                     ]
                 }, {
-                    name: '罗汉松科',
+                    name: '虎耳草科',
                     children: [
                         {
                             name: '美洲矾根',
@@ -88,7 +89,8 @@ function drawSpeciesChart() {
                     children: [
                         {
                             name: '报春花',
-                            value: 3
+                            value: 3,
+                            // value: 1
                         },
                         {
                             name: '圆叶过路黄',
@@ -189,7 +191,9 @@ function drawSpeciesChart() {
                     children: [
                         {
                             name: '荷花玉兰',
-                            value: 2
+                            value: 2,
+                            // value: 1
+
                         }
                     ]
                 },
@@ -198,7 +202,9 @@ function drawSpeciesChart() {
                     children: [
                         {
                             name: '栀子',
-                            value: 2
+                            value: 2,
+                            // value: 1
+
                         }
                     ]
                 },
@@ -219,7 +225,8 @@ function drawSpeciesChart() {
                         },
                         {
                             name: '石楠',
-                            value: 3
+                            value: 3,
+                            // value: 1 
                         }
                     ]
                 },
@@ -244,7 +251,8 @@ function drawSpeciesChart() {
                     children: [
                         {
                             name: '山茶',
-                            value: 5
+                            value: 5,
+                            // value: 1
                         }
                     ]
                 }, {
@@ -279,7 +287,8 @@ function drawSpeciesChart() {
                     children: [
                         {
                             name: '天南竹',
-                            value: 3
+                            value: 3,
+                            // value: 1
                         },
                         {
                             name: '南天竹',
@@ -328,7 +337,7 @@ function drawSpeciesChart() {
             itemStyle: {
                 borderRadius: 5,
                 borderWidth: 2
-              },
+            },
         }
     };
 
