@@ -22,14 +22,9 @@ function drawSankeyChart() {
             label: {
                 fontSize: 10
             },
+            layoutIterations: 0,
             // orient: 'vertical',
-            data: [
-                {
-                    "name": "小叶黄杨",
-                    "itemStyle": {
-                        "color": "#433C34"
-                    }
-                },
+            data:[
                 {
                     "name": "香附子",
                     "itemStyle": {
@@ -40,18 +35,6 @@ function drawSankeyChart() {
                     "name": "山茶",
                     "itemStyle": {
                         "color": "#A98267"
-                    }
-                },
-                {
-                    "name": "早熟禾",
-                    "itemStyle": {
-                        "color": "#433C34"
-                    }
-                },
-                {
-                    "name": "报春花",
-                    "itemStyle": {
-                        "color": "#433C34"
                     }
                 },
                 {
@@ -67,27 +50,9 @@ function drawSankeyChart() {
                     }
                 },
                 {
-                    "name": "枸骨",
-                    "itemStyle": {
-                        "color": "#433C34"
-                    }
-                },
-                {
                     "name": "雪松",
                     "itemStyle": {
                         "color": "#A98267"
-                    }
-                },
-                {
-                    "name": "美国冬青",
-                    "itemStyle": {
-                        "color": "#433C34"
-                    }
-                },
-                {
-                    "name": "荷花玉兰",
-                    "itemStyle": {
-                        "color": "#433C34"
                     }
                 },
                 {
@@ -103,12 +68,6 @@ function drawSankeyChart() {
                     }
                 },
                 {
-                    "name": "皋月杜鹃",
-                    "itemStyle": {
-                        "color": "#433C34"
-                    }
-                },
-                {
                     "name": "续随子",
                     "itemStyle": {
                         "color": "#A98267"
@@ -121,6 +80,84 @@ function drawSankeyChart() {
                     }
                 },
                 {
+                    "name": "美国扁柏",
+                    "itemStyle": {
+                        "color": "#A98267"
+                    }
+                },
+                {
+                    "name": "圆叶过路黄",
+                    "itemStyle": {
+                        "color": "#A98267"
+                    }
+                },
+                {
+                    "name": "锦熟黄杨",
+                    "itemStyle": {
+                        "color": "#A98267"
+                    }
+                },
+                {
+                    "name": "矢竹",
+                    "itemStyle": {
+                        "color": "#A98267"
+                    }
+                },
+                {
+                    "name": "澳洲迷迭香",
+                    "itemStyle": {
+                        "color": "#A98267"
+                    }
+                },
+                {
+                    "name": "罗汉松",
+                    "itemStyle": {
+                        "color": "#A98267"
+                    }
+                },
+                {
+                    "name": "小叶黄杨",
+                    "itemStyle": {
+                        "color": "#433C34"
+                    }
+                },
+                {
+                    "name": "早熟禾",
+                    "itemStyle": {
+                        "color": "#433C34"
+                    }
+                },
+                {
+                    "name": "报春花",
+                    "itemStyle": {
+                        "color": "#433C34"
+                    }
+                },
+                {
+                    "name": "枸骨",
+                    "itemStyle": {
+                        "color": "#433C34"
+                    }
+                },
+                {
+                    "name": "美国冬青",
+                    "itemStyle": {
+                        "color": "#433C34"
+                    }
+                },
+                {
+                    "name": "荷花玉兰",
+                    "itemStyle": {
+                        "color": "#433C34"
+                    }
+                },
+                {
+                    "name": "皋月杜鹃",
+                    "itemStyle": {
+                        "color": "#433C34"
+                    }
+                },
+                {
                     "name": "栀子",
                     "itemStyle": {
                         "color": "#433C34"
@@ -130,18 +167,6 @@ function drawSankeyChart() {
                     "name": "水杉",
                     "itemStyle": {
                         "color": "#433C34"
-                    }
-                },
-                {
-                    "name": "美国扁柏",
-                    "itemStyle": {
-                        "color": "#A98267"
-                    }
-                },
-                {
-                    "name": "枇杷",
-                    "itemStyle": {
-                        "color": "#C4AFA2"
                     }
                 },
                 {
@@ -166,30 +191,6 @@ function drawSankeyChart() {
                     "name": "蛇莓",
                     "itemStyle": {
                         "color": "#433C34"
-                    }
-                },
-                {
-                    "name": "圆叶过路黄",
-                    "itemStyle": {
-                        "color": "#A98267"
-                    }
-                },
-                {
-                    "name": "珊瑚树",
-                    "itemStyle": {
-                        "color": "#C4AFA2"
-                    }
-                },
-                {
-                    "name": "锦熟黄杨",
-                    "itemStyle": {
-                        "color": "#A98267"
-                    }
-                },
-                {
-                    "name": "矢竹",
-                    "itemStyle": {
-                        "color": "#A98267"
                     }
                 },
                 {
@@ -223,27 +224,27 @@ function drawSankeyChart() {
                     }
                 },
                 {
-                    "name": "澳洲迷迭香",
-                    "itemStyle": {
-                        "color": "#A98267"
-                    }
-                },
-                {
                     "name": "月季花",
                     "itemStyle": {
                         "color": "#433C34"
                     }
                 },
                 {
-                    "name": "罗汉松",
-                    "itemStyle": {
-                        "color": "#A98267"
-                    }
-                },
-                {
                     "name": "美洲矾根",
                     "itemStyle": {
                         "color": "#433C34"
+                    }
+                },
+                {
+                    "name": "枇杷",
+                    "itemStyle": {
+                        "color": "#C4AFA2"
+                    }
+                },
+                {
+                    "name": "珊瑚树",
+                    "itemStyle": {
+                        "color": "#C4AFA2"
                     }
                 },
                 {
@@ -327,16 +328,6 @@ function drawSankeyChart() {
             ],
             links: [
                 {
-                    "source": "对生",
-                    "target": "小叶黄杨",
-                    "value": 1
-                },
-                {
-                    "source": "小叶黄杨",
-                    "target": "椭圆形",
-                    "value": 1
-                },
-                {
                     "source": "轮生",
                     "target": "香附子",
                     "value": 1
@@ -358,41 +349,11 @@ function drawSankeyChart() {
                 },
                 {
                     "source": "互生",
-                    "target": "早熟禾",
-                    "value": 1
-                },
-                {
-                    "source": "早熟禾",
-                    "target": "条形",
-                    "value": 1
-                },
-                {
-                    "source": "簇生",
-                    "target": "报春花",
-                    "value": 1
-                },
-                {
-                    "source": "报春花",
-                    "target": "卵形",
-                    "value": 1
-                },
-                {
-                    "source": "互生",
                     "target": "三色堇",
                     "value": 1
                 },
                 {
                     "source": "三色堇",
-                    "target": "卵形",
-                    "value": 1
-                },
-                {
-                    "source": "簇生",
-                    "target": "报春花",
-                    "value": 1
-                },
-                {
-                    "source": "报春花",
                     "target": "卵形",
                     "value": 1
                 },
@@ -404,26 +365,6 @@ function drawSankeyChart() {
                 {
                     "source": "南天竹",
                     "target": "披针形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "枸骨",
-                    "value": 1
-                },
-                {
-                    "source": "枸骨",
-                    "target": "椭圆形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "山茶",
-                    "value": 1
-                },
-                {
-                    "source": "山茶",
-                    "target": "椭圆形",
                     "value": 1
                 },
                 {
@@ -437,26 +378,6 @@ function drawSankeyChart() {
                     "value": 1
                 },
                 {
-                    "source": "对生",
-                    "target": "美国冬青",
-                    "value": 1
-                },
-                {
-                    "source": "美国冬青",
-                    "target": "椭圆形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "荷花玉兰",
-                    "value": 1
-                },
-                {
-                    "source": "荷花玉兰",
-                    "target": "椭圆形",
-                    "value": 1
-                },
-                {
                     "source": "簇生",
                     "target": "菖蒲",
                     "value": 1
@@ -467,52 +388,12 @@ function drawSankeyChart() {
                     "value": 1
                 },
                 {
-                    "source": "簇生",
-                    "target": "报春花",
-                    "value": 1
-                },
-                {
-                    "source": "报春花",
-                    "target": "卵形",
-                    "value": 1
-                },
-                {
                     "source": "轮生",
                     "target": "白花杜鹃",
                     "value": 1
                 },
                 {
                     "source": "白花杜鹃",
-                    "target": "卵形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "南天竹",
-                    "value": 1
-                },
-                {
-                    "source": "南天竹",
-                    "target": "披针形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "南天竹",
-                    "value": 1
-                },
-                {
-                    "source": "南天竹",
-                    "target": "披针形",
-                    "value": 1
-                },
-                {
-                    "source": "轮生",
-                    "target": "皋月杜鹃",
-                    "value": 1
-                },
-                {
-                    "source": "皋月杜鹃",
                     "target": "卵形",
                     "value": 1
                 },
@@ -537,6 +418,136 @@ function drawSankeyChart() {
                     "value": 1
                 },
                 {
+                    "source": "簇生",
+                    "target": "美国扁柏",
+                    "value": 1
+                },
+                {
+                    "source": "美国扁柏",
+                    "target": "鳞片状",
+                    "value": 1
+                },
+                {
+                    "source": "对生",
+                    "target": "圆叶过路黄",
+                    "value": 1
+                },
+                {
+                    "source": "圆叶过路黄",
+                    "target": "圆形",
+                    "value": 1
+                },
+                {
+                    "source": "对生",
+                    "target": "锦熟黄杨",
+                    "value": 1
+                },
+                {
+                    "source": "锦熟黄杨",
+                    "target": "卵形",
+                    "value": 1
+                },
+                {
+                    "source": "互生",
+                    "target": "矢竹",
+                    "value": 1
+                },
+                {
+                    "source": "矢竹",
+                    "target": "条形",
+                    "value": 1
+                },
+                {
+                    "source": "对生",
+                    "target": "澳洲迷迭香",
+                    "value": 1
+                },
+                {
+                    "source": "澳洲迷迭香",
+                    "target": "针形",
+                    "value": 1
+                },
+                {
+                    "source": "对生",
+                    "target": "罗汉松",
+                    "value": 1
+                },
+                {
+                    "source": "罗汉松",
+                    "target": "针形",
+                    "value": 1
+                },
+                {
+                    "source": "对生",
+                    "target": "小叶黄杨",
+                    "value": 1
+                },
+                {
+                    "source": "小叶黄杨",
+                    "target": "椭圆形",
+                    "value": 1
+                },
+                {
+                    "source": "互生",
+                    "target": "早熟禾",
+                    "value": 1
+                },
+                {
+                    "source": "早熟禾",
+                    "target": "条形",
+                    "value": 1
+                },
+                {
+                    "source": "簇生",
+                    "target": "报春花",
+                    "value": 1
+                },
+                {
+                    "source": "报春花",
+                    "target": "卵形",
+                    "value": 1
+                },
+                {
+                    "source": "对生",
+                    "target": "枸骨",
+                    "value": 1
+                },
+                {
+                    "source": "枸骨",
+                    "target": "椭圆形",
+                    "value": 1
+                },
+                {
+                    "source": "对生",
+                    "target": "美国冬青",
+                    "value": 1
+                },
+                {
+                    "source": "美国冬青",
+                    "target": "椭圆形",
+                    "value": 1
+                },
+                {
+                    "source": "对生",
+                    "target": "荷花玉兰",
+                    "value": 1
+                },
+                {
+                    "source": "荷花玉兰",
+                    "target": "椭圆形",
+                    "value": 1
+                },
+                {
+                    "source": "轮生",
+                    "target": "皋月杜鹃",
+                    "value": 1
+                },
+                {
+                    "source": "皋月杜鹃",
+                    "target": "卵形",
+                    "value": 1
+                },
+                {
                     "source": "对生",
                     "target": "栀子",
                     "value": 1
@@ -554,26 +565,6 @@ function drawSankeyChart() {
                 {
                     "source": "水杉",
                     "target": "针形",
-                    "value": 1
-                },
-                {
-                    "source": "簇生",
-                    "target": "美国扁柏",
-                    "value": 1
-                },
-                {
-                    "source": "美国扁柏",
-                    "target": "鳞片状",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "枇杷",
-                    "value": 1
-                },
-                {
-                    "source": "枇杷",
-                    "target": "披针形",
                     "value": 1
                 },
                 {
@@ -607,26 +598,6 @@ function drawSankeyChart() {
                     "value": 1
                 },
                 {
-                    "source": "对生",
-                    "target": "山茶",
-                    "value": 1
-                },
-                {
-                    "source": "山茶",
-                    "target": "椭圆形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "石楠",
-                    "value": 1
-                },
-                {
-                    "source": "石楠",
-                    "target": "卵形",
-                    "value": 1
-                },
-                {
                     "source": "互生",
                     "target": "蛇莓",
                     "value": 1
@@ -634,86 +605,6 @@ function drawSankeyChart() {
                 {
                     "source": "蛇莓",
                     "target": "椭圆形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "圆叶过路黄",
-                    "value": 1
-                },
-                {
-                    "source": "圆叶过路黄",
-                    "target": "圆形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "栀子",
-                    "value": 1
-                },
-                {
-                    "source": "栀子",
-                    "target": "椭圆形",
-                    "value": 1
-                },
-                {
-                    "source": "互生",
-                    "target": "南天竹",
-                    "value": 1
-                },
-                {
-                    "source": "南天竹",
-                    "target": "披针形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "山茶",
-                    "value": 1
-                },
-                {
-                    "source": "山茶",
-                    "target": "椭圆形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "荷花玉兰",
-                    "value": 1
-                },
-                {
-                    "source": "荷花玉兰",
-                    "target": "椭圆形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "珊瑚树",
-                    "value": 1
-                },
-                {
-                    "source": "珊瑚树",
-                    "target": "椭圆形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "锦熟黄杨",
-                    "value": 1
-                },
-                {
-                    "source": "锦熟黄杨",
-                    "target": "卵形",
-                    "value": 1
-                },
-                {
-                    "source": "互生",
-                    "target": "矢竹",
-                    "value": 1
-                },
-                {
-                    "source": "矢竹",
-                    "target": "条形",
                     "value": 1
                 },
                 {
@@ -767,16 +658,6 @@ function drawSankeyChart() {
                     "value": 1
                 },
                 {
-                    "source": "对生",
-                    "target": "澳洲迷迭香",
-                    "value": 1
-                },
-                {
-                    "source": "澳洲迷迭香",
-                    "target": "针形",
-                    "value": 1
-                },
-                {
                     "source": "互生",
                     "target": "月季花",
                     "value": 1
@@ -784,16 +665,6 @@ function drawSankeyChart() {
                 {
                     "source": "月季花",
                     "target": "椭圆形",
-                    "value": 1
-                },
-                {
-                    "source": "对生",
-                    "target": "罗汉松",
-                    "value": 1
-                },
-                {
-                    "source": "罗汉松",
-                    "target": "针形",
                     "value": 1
                 },
                 {
@@ -808,22 +679,22 @@ function drawSankeyChart() {
                 },
                 {
                     "source": "对生",
-                    "target": "山茶",
+                    "target": "枇杷",
                     "value": 1
                 },
                 {
-                    "source": "山茶",
-                    "target": "椭圆形",
+                    "source": "枇杷",
+                    "target": "披针形",
                     "value": 1
                 },
                 {
                     "source": "对生",
-                    "target": "石楠",
+                    "target": "珊瑚树",
                     "value": 1
                 },
                 {
-                    "source": "石楠",
-                    "target": "卵形",
+                    "source": "珊瑚树",
+                    "target": "椭圆形",
                     "value": 1
                 }
             ]
