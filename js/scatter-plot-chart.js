@@ -740,15 +740,9 @@ function getName(params) {
 function getImg(params) {
     key = `${params.value[0]}, ${params.value[1]}`
     if (tmpPlotName !== 'Soil')
-<<<<<<< HEAD
         return `img/plants/${plantImgUrl[key].imgUrl}.jpg`;
     else
         return `img/plants/${plantImgUrl[key].imgUrl}.jpg`;
-=======
-        return `../img/plants/${plantImgUrl[key].imgUrl}.jpg`;
-    else
-        return `../img/plants/${plantImgUrl[key].imgUrl}.jpg`;
->>>>>>> e2011c6d85422c1b2cdc0ca170f0f1ad7f0ced95
 }
 
 drawPlotChart('Family')
