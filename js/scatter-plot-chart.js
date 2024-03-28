@@ -232,7 +232,7 @@ function drawPlotChart(name) {
             formatter: function (params) {
                 return (
                     '<div>' +
-                    '<div style="font-size:15px;font-weight:bold">' + getName(params) + '</div>' +
+                    '<div style="font-size:15px;font-weight:bold">' + getNum(params) + '-' + getName(params) + '</div>' +
                     '<p>经度(longitude):' + params.value[0] + '°</p>' +
                     '<p>纬度(latitude):' + params.value[1] + '°</p>' +
                     '<div><img src="' + getImg(params) + '" style="width: 100px; height: auto;"></div>' +
@@ -742,7 +742,12 @@ function getImg(params) {
     if (tmpPlotName !== 'Soil')
         return `img/plants/${plantImgUrl[key].imgUrl}.jpg`;
     else
-        return `img/plants/${plantImgUrl[key].imgUrl}.jpg`;
+        return `img/soil/${plantImgUrl[key].imgUrl}.jpg`;
+}
+
+function getNum(params) {
+    key = `${params.value[0]}, ${params.value[1]}`
+    return plantImgUrl[key].imgUrl;
 }
 
 drawPlotChart('Family')
