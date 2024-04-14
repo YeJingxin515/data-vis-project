@@ -9,6 +9,74 @@
 
 <body style="height: 100%; margin: 0">
   <div id="container" style="height: 100%">
+    <div id="cover">
+      <div id="title">The STORY OF THE STORY</div>
+      <div id="author">Peng Yechun, Ye Jingxin</div>
+    </div>
+    <div class="story-container">
+      <div class="subtitle">灵感 Inspirtion</div>
+      <div class="story-content-ch">
+        我们的故事起始于3月的一个清晨。在仍带有丝丝寒风，万物却已开始悄然复苏的早春，我们来到了新华社区。被漫入眼帘的美丽所吸引，我们产生了一个灵感：是否可以创作一幅新华街的“视觉地图”，解读新华街的视觉元素？经过范围的缩小，我们将范围缩小到了自然生态的视觉。我们看见了美丽的植物，同时，我们也关注到了植物脚下的土壤，他们同样拥有丰富的组成。植物和土壤的组合，会带来什么样的故事呢？
+      </div>
+      <div class="story-content-en">Our story began on a crisp morning in March. In the early spring when a slight chill
+        still lingered but nature was quietly reviving, we came to the Xinhua community. Captivated by the beauty around
+        us, we had an inspiration: could we create a "visual map" of Xinhua Street, interpreting its visual elements?
+        After narrowing our scope, we focused specifically on the visual aspect of the natural ecology. We noticed
+        beautiful plants, yet also paid attention to the soil beneath them, recognizing its rich composition. What kind
+        of story might the combination of plants and soil tell?</div>
+    </div>
+
+    <div class="story-container">
+      <div class="subtitle">寻找数据 Find our data</div>
+      <div class="story-content-ch">我们在新华街上漫步，收集相关的数据。我们的活动范围如下图所示。</div>
+      <div class="story-content-en">As we strolled along Xinhua Street, we collected relevant data. Our area of activity
+        is shown in the image below.</div>
+      <img alt="route" src="img/story/route.png"></img>
+      <div class="story-content-ch">由于我们以视觉为主题，所以主要通过拍照的手段获得数据。我们在新华街的街道上寻找不同的植物，并拍摄植物下方形态各异的土壤。</div>
+      <div class="story-content-en">Since our theme was focused on visuals, we primarily obtained data through
+        photography. We searched for different plants along the streets of Xinhua Street and took photos of the varied
+        shapes and forms of the soil beneath the plants.</div>
+      <div class="horizontal-layout" style="width:800px !important">
+        <img alt="route" src="img/story/story-img1.jpg" style="width:385px !important"></img>
+        <img alt="route" src="img/story/story-img2.jpg" style="width:385px !important;margin-left: 30px;"></img>
+      </div>
+    </div>
+
+
+    <div class="story-container">
+      <div class="subtitle">分析数据 Analyze our data</div>
+      <div class="story-content-ch">
+        我们将对收集来的图片进行了配对以及对图片进行分析，提取里面的有效信息。
+      </div>
+      <div class="story-content-en">We paired the collected photos and analyzed them, extracting the relevant
+        information within them.</div>
+      <div class="story-content-ch">
+        对于土壤，我们确定了土壤的种类，用吸管吸取了土壤的颜色，以及编码了土壤中的内容物。
+      </div>
+      <div class="story-content-en">As for the soil, we identified the types of soil, extracted soil color samples, and
+        coded the contents found within the soil samples.</div>
+
+      <img alt="route" src="img/story/story-img3.png"></img>
+      <div class="story-content-ch">
+        对于植物，我们确定了植物的名称，并查询了植物的科属种和花期果期。同时，我们也吸取了植物中叶子的颜色和花的颜色，并分析了植物的叶形和叶序。
+      </div>
+      <div class="story-content-en">For the plants, we identified their names and looked up their taxonomic families,
+        genera, species, as well as their flowering and fruiting periods. Additionally, we extracted color samples from
+        the leaves and flowers, and analyzed the shapes and arrangements of the leaves.</div>
+      <img alt="route" src="img/story/story-img4.png"></img>
+
+    </div>
+
+
+    <div class="story-container">
+      <div class="subtitle">可视化数据 Visualization</div>
+      <div class="story-content-ch">
+        首先，我们利用经纬度制作了一张“地图”散点图，并对各个不同的数据维度都进行了统计，想要查看不同种类的植物和土壤在新华路上的分布。
+      </div>
+      <div class="story-content-en">First, we created a "map" scatter plot using latitude and longitude coordinates, and
+        performed statistical analysis on the various different data dimensions, aiming to examine the distribution of
+        different types of plants and soil along Xinhua Road.</div>
+    </div>
     <div class="chart-title-container">
       <div class="chart-title-ch">植物分布图</div>
       <div class="chart-title-en">Plant Distribution Map</div>
@@ -23,6 +91,13 @@
       <div id="scatter-plot-chart"></div>
     </div>
     <!-- -------------------------------------------------- -->
+    <div class="story-container">
+      <div class="story-content-ch">
+        我们也制作了植物的种类图，观察在新华社区植物类型的总体情况。
+      </div>
+      <div class="story-content-en">We also created a chart showing the varieties of plants, in order to observe the
+        overall situation of plant types in the Xinhua community.</div>
+    </div>
     <div class="chart-title-container">
       <div class="chart-title-ch">植物种类图</div>
       <div class="chart-title-en">Plant Species Diagram</div>
@@ -31,6 +106,14 @@
     <div id="plant-species-chart"></div>
 
     <!-- -------------------------------------------------- -->
+    <div class="story-container">
+      <div class="story-content-ch">
+        我们同样统计了植物的叶形和叶序的数量，制作了柱状图和条形图，研究公路植物种植的偏好，发现椭圆形叶片和对生关系的植物最多。
+      </div>
+      <div class="story-content-en">Similarly, we counted the numbers of leaf shapes and leaf arrangements, creating bar
+        charts and histograms to study the preferences for planting vegetation along the roadside. We discovered that
+        plants with elliptical leaves and opposite leaf arrangements were the most common.</div>
+    </div>
     <div class="chart-title-container">
       <div class="chart-title-ch">植物叶片形状图</div>
       <div class="chart-title-en">Leaf Shape Diagram</div>
@@ -38,7 +121,6 @@
     <div class="horizontal-layout">
       <div id="leaf-shape-chart"></div>
     </div>
-    <!-- -------------------------------------------------- -->
     <div class="chart-title-container">
       <div class="chart-title-ch">植物叶序图</div>
       <div class="chart-title-en">Leaf Arrangement Diagram</div>
@@ -48,23 +130,41 @@
     </div>
 
     <!-- -------------------------------------------------- -->
+    <div class="story-container">
+      <div class="story-content-ch">
+        为了能够得知全年新华街植物的开花结果规律，了解各个月份的新华街可能是什么样，我们也制作了植物生长的时序图，预测每个月植物开花结果的情况。
+      </div>
+      <div class="story-content-en">In order to understand the patterns of flowering and fruiting for plants along
+        Xinhua Street throughout the year, and envision what Xinhua Street might look like in each month, we also
+        created a time-series visualization of plant growth, predicting the flowering and fruiting situations of the
+        plants month by month.</div>
+    </div>
     <div class="chart-title-container">
       <div class="chart-title-ch">植物生长时序图</div>
       <div class="chart-title-en">Plant Growth Timeline Chart</div>
-    </div>
-    <div id="bloom-time-chart">
-      <img src="img//bloomTimeChart.svg" alt="bloom-time-chart" />
+
+      <div class="horizontal-layout">
+        <img src="img//bloomTimeChart.svg" alt="bloom-time-chart" id="bloom-time-chart" />
+      </div>
     </div>
 
+
     <!-- -------------------------------------------------- -->
+    <div class="story-container">
+      <div class="story-content-ch">
+        对于土壤，我们研究了不同土的种类和植物形态的关系，以及土壤中内容物的比例。
+      </div>
+      <div class="story-content-en">For the soil, we studied the relationships between different soil types and plant
+        forms, as well as the proportions of the various components found within the soil samples.</div>
+    </div>
     <div class="chart-title-container">
       <div class="chart-title-ch">植物土壤桑基图</div>
       <div class="chart-title-en">Plant Soil Sankey Chart</div>
     </div>
     <div class="horizontal-layout">
-      <div id="sankey-chart"></div>
+      <div id="sankey-chart1"></div>
+      <div id="sankey-chart2"></div>
     </div>
-
 
     <!-- -------------------------------------------------- -->
     <div class="chart-title-container">
@@ -73,12 +173,6 @@
     </div>
     <div class="horizontal-layout">
       <div id="soil-content-chart"></div>
-    </div>
-
-    <!-- -------------------------------------------------- -->
-    <div class="chart-title-container">
-      <div class="chart-title-ch">土壤颜色比例图</div>
-      <div class="chart-title-en">Soil Color Scale Diagram</div>
     </div>
 
 
